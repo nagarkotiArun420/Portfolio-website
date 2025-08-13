@@ -1,0 +1,99 @@
+*{
+    color: azure;
+}
+
+body{
+    background-image: url('/images/black.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    
+}
+
+nav {
+    background-color: rgb(27, 37, 34);
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
+      
+}
+
+nav a{  
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: 0.3s ease;
+    
+
+}
+
+nav a:hover {
+   transform: scale(1.1);
+  
+}
+
+#home {
+    display: flex;
+    padding-bottom: 70px;
+}
+
+#overalltext {
+    padding: 40px;
+    margin-left: 10px;
+    margin-right: 400px;
+    margin-top: 100px;
+    font-size: 30px;
+    
+    
+}
+
+#overalltext p {
+   font-size: 20px; 
+   justify-content: baseline;
+
+}
+
+.img img{
+    width:400px;
+    margin-right: 150px;
+    margin-top:200px;
+    border-radius:50%;
+
+
+}
+
+
+footer{
+    background-image: url('/images/42.jpg');
+    padding: 40px;
+    padding-left: 180px;
+    
+
+}
+
+footer i {
+    margin-right: 8px;
+}
+
+button{
+    background-color: green;
+    width: 250px;
+    padding-right:50px;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: 0.3s;
+    border-radius: 20px;
+}
+
+button:hover{
+    transform: scale(1.2);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
